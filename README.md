@@ -18,8 +18,8 @@ Focus News is a web application that fetches and displays news articles based on
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/focus-news.git
-    cd focus-news
+    git clone https://github.com/agomesp/focusnews.git
+    cd focusnews
     ```
 
 2. Install dependencies:
@@ -40,12 +40,12 @@ To build and run the application using Docker:
 
 1. Build the Docker image:  
     ```sh
-    docker build -t focus-news .
+    docker build -t focusnews .
     ```
 
 2. Run the Docker container:
     ```sh
-    docker run -p 3000:3000 focus-news
+    docker run -p 3000:3000 focusnews
     ```
 
 ## Scripts
